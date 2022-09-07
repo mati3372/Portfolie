@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255,192,203);
+}
+
+
+h1{
+font-style: cursive;
+}
+
+p{
+background-color: rgb(250,240,230)
+}
+
+
+
+.kasse{
+margin: auto;
+background-color: rgb(255,228,225);
+width: 40%;
+height: 60%;
+overflow: hidden;
+font-size: 40;
+}
