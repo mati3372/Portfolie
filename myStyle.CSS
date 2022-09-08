@@ -8,16 +8,27 @@ font-style: cursive;
 }
 
 p{
-background-color: rgb(250,240,230)
+background-color: white;
 }
 
 
 
-.kasse{
-margin: auto;
-background-color: rgb(255,228,225);
-width: 40%;
-height: 60%;
-overflow: hidden;
-font-size: 40;
+div.kasse {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;
 }
+
+div.kasse2 {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;    
+position: fixed;
+top: 60px;
+left: 600px;
+}
+
