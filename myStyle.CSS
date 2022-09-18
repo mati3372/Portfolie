@@ -1,15 +1,5 @@
-body {
-  background-color: rgb(255,192,203);
-}
-
-
-h1{
-font-style: cursive;
-}
-
-
-
-
+body {background-color: rgb(255,192,203);}
+h1{font-style: cursive;}
 
 div.kasse {
 border: 15px solid black;
