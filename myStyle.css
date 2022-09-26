@@ -1,0 +1,22 @@
+body {background-color: rgb(255,192,203);}
+h1{font-style: cursive;}
+
+div.kasse {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;
+}
+
+div.kasse2 {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;    
+position: fixed;
+top: 60px;
+left: 600px;
+}
+
