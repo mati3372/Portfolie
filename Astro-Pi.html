@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<meta charset="UTF-8">
+</head>
+<body>
+   <h1>Mit informatik portfolio</h1>
+    <div class="topnav">
+    <a href="index.html">Hovedmenu</a>
+    <a href="Webteknologi.html">Webteknologi</a>
+    <a href="itsikkerhed.html">IT-sikkerhed</a>
+    <a href="Astro-Pi.html">Astro-Pi projekt</a>
+    
+</div> 
+<h1>Astro-Pi projekt</h1>
+<div class=kasse>
+<div>
+Vi har i dette forløb om Astro-Pi arbejdet med basal kodning i Python, hvor vi har udviklet et projekt til detagelse i ESAs Mission Spave Lab udfordring. Jeg har været i gruppe med Alba, Sara og Wilma 2021y.
+    
+<h2>Vores Astro-Pi projekt beskrivelse:</h2>
+Vi vil gerne undersøge hvordan planter har det i to forskellige skove som er placeret to forskellige steder. For at gøre dette vil vi bruge et infrarødt kamera som vil kunne fortælle om planterne befinder sig i et godt eller dårligt miljø. Det kan man bruge det infrarøde kamera til da det kan vise hvor meget nær infrarød stråling planterne udsender. Dette indikerer nemlig densiteten og helbredet af planterne i det givne område. Til slut vil vi sammenligne de to skove og se hvilken destination der er mest optimal for planter at leve i.
+
+<h2>Gennemgang af ESA’s specifikationer og en vurdering af hvilke rammer det sætter for jeres projekt:</h2>
+ESA har en masse forskellige specifikationer som ens projekt skal være indenfor. En af disse er at det skal være et videnskabeligt projekt og ikke et spil. Dette har vi opfyldt ved at undersøge planters levestandarder i et spesefikt områder, nemlig Amazonas. Hvilket er videnskabeligt og ikke er et spil. Et andet krav er at forsøget ikke skal afhænge af en specifik begivenhed som muligvis ikke vil finde sted i løbet af de tre timer. Dette lever vores projekt op til da vores forsøg ikke afhænger af nogen specifik begivenhed for at kunne finde sted. Et af ESA’s andre krav er at forsøget ikke må kræve yderligere udstyr eller adgang til noget andet på ISS, hvilket vores projekt lever op til da der ikke er behov for noget andet til at udføre vores forsøg.
+
+<h2>Beskrivelse af sensor:</h2>
+Dataen vi vil samle er billeder af to forskellige skove med et NDVI-filter. NDVI-filteret er et vegetationsindeks som indikerer planternes sundhed baseret på hvordan planter udsender bestemte bølgelængder i det elektromagnetiske spektrum. Det er cellestrukturen i planterne som udsender nær-infrarød stråling, hvilket betyder at når planterne udfører fotosyntese, og de dermed vokser, vil planterne indeholde flere cellestrukturer. Dette betyder at sunde planter udsender mere NIR end planter som ikke trives. Så ved at tage billeder af to forskellige skove vil man kunne bestemme hvilket sted planterne trives bedst.
+    
+<h2>Link til vores kode</h2>
+<a href="zaynmalik.py">Programkode</a> 
+        
+<h2>Vurdering af om vores kode lever op til ESA’s kravspecifikationer:</h2>
+Vi har udvalgt 3 af ESA’s kravspecifikationer, som vores kode lever op til:
+<img src="krav.jpg" height="250" width="500">
+ESA har også nogle specifikke krav til ens kode. Nogle eksempler på disse er kravene: ens program skal bruge mindst en Sense Hat sensor eller kameraet, ens kode må ikke indeholde ondsindet kode, som bevidst prøver at forstyrre systemets funktionalitet og ens program skal ikke bruge netværk. Vores kode lever op til disse tre krav, da vi gør brug af kameraet, vores kode indeholder ikke nogen “ondsindet” kode og den skal ikke bruge netværk.</div> 
+
+<h2>Grundig beskrivelse af test måling af mindst en måling:</h2>
+Når man løber vores program vil det være muligt med to forskellige output:<br>
+    
+1. Den første testmåling af ISS ikke over Amazonas:<br>
+Det første udkom af testmålingerne er hvis ISS-sensoren ikke er over Amazonas. I dette tilfælde vil den måle længde- og breddegrad af sensorens lokation og hvor højt over jorden den befinder sig. Ud fra dette ved den, om den er indenfor det givne område, nemlig Amazonas, og når den ikke er det, som i dette tilfælde, så tager den ikke et billede og siger “intet billed”:
+<img src="1tm.png" height="100" width="500"><br><br>
+    
+2. Den anden testmåling er ISS over Amazonas:<br>
+Det andet udkom af testmålingerne er hvis ISS-sensoren er over Amazonas. I dette tilfælde vil den igen måle længde- og breddegrad af sensorens lokation og hvor højt over jorden den befinder sig, som ses her:<br>
+<img src="2tm.png" height="100" width="500"><br> 
+Den vil igen ud fra dette vide om den er indenfor det givne område, nemlig Amazonas, og når den er det, som i dette tilfælde, så tager den et billede:
+<img src="klasse.png" height="200" width="500">
+Dette er et billede fra klasselokalet, som blev taget, da ISS-sensoren var over Amazonas.
+
+
+</div>
+
+
+
+
+<div class=kasse2><div>
+<h1>Gennemgang af kode og flowchart:</h1>
+<img src="kode.jpg" height="250" width="500">
+Denne kode bruges til, at tage billeder af vores valgte destination Amazonas. Dette gøres ved at lave en if-statement som ses i linje 6 hvor vi skriver at hvis ISS er indenfor de breddegrader og længdegrader der er skrevet, så skal den tage et billede.<br>
+<h2>Flowchart:</h2>
+<img src="flowchart.jpg" height="600" width="500"
+           
+</body>
+</html>
