@@ -46,7 +46,7 @@ padding: 20px;
 background-color: lavenderblush;
 margin: 20px;    
 position: relative;
-top: -2230px;
+top: -2174px;
 left: 600px;
 }
 
@@ -69,5 +69,29 @@ background-color: lavenderblush;
 margin: 20px;
 position: relative;
 right: -600px;
-top: -742px;
+top: -758px;
 }
+
+div.kasse5 {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;
+position: relative;
+right: -600px;
+top: -2038px;
+}
+
+div.kasse6 {
+border: 15px solid black;
+width: 500px;
+padding: 20px;
+background-color: lavenderblush;
+margin: 20px;
+position: relative;
+right: -600px;
+top: -806px;
+}
+
+
